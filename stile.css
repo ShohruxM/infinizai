@@ -5,10 +5,26 @@
     font-family: "Roboto" sans-serif;
 }
 a{
-    text-decoration: none;
+    text-decoration: none; display: inline-block;
+    padding-left: 15px;
 }
 button{cursor: pointer;}
-.continer{
-width: 1140px;
+.container{
+    border: solid 1px red;
+    margin: 0 auto;
+    width: 1140px;
 padding: 0 20px;
 }
+
+.d-flex{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+p{padding-left: 10px ;}
+header .container{
+    background-image: linear-gradient( to right, black 0% 50%,#57B8FF 50% 100%  );
+}
+p, h1{color: #f7f4f4;}   
